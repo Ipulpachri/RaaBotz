@@ -8,7 +8,7 @@ let levelling = require('../lib/levelling')
 let handler = async (m, { conn, usedPrefix: _p, args, command }) => { 
 	let hao = ` 
  *Official Bot By @${'0'.split('@')[0]}* 
- *Powered By @${'62895604670507'.split('@')[0]}*` 
+ *Powered By @${'6285713041886'.split('@')[0]}*` 
   let package = JSON.parse(await fs.promises.readFile(path.join(__dirname, '../package.json')).catch(_ => '{}'))
     let { exp, limit, age, money, level, role, registered } = global.db.data.users[m.sender]
     let { min, xp, max } = levelling.xpRange(level, global.multiplier)
@@ -53,7 +53,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) =>�
     const jamm = Math.floor( lebih % (1000 * 60 * 60 * 24) / (1000 * 60 * 60))
     const menitt = Math.floor( lebih % (1000 * 60 * 60) / (1000 * 60))
     const detikk = Math.floor( lebih % (1000 * 60) / 1000)
-    const ultah = new Date('April 5, 2023 23:59:59')
+    const ultah = new Date('October 17, 2023 23:59:59')
     const sekarat = new Date().getTime() 
     const Kurang = ultah - sekarat
     const ohari = Math.floor( Kurang / (1000 * 60 * 60 * 24));
@@ -97,8 +97,8 @@ const fkgif = {
                 },
 	 message: { 
 		"extendedTextMessage": {
-                 "text":`RaaBotz MD 🌱 ┊ 𝗥𝗣𝗚 Whatsapp ʙᴏᴛ`,
-                 "title": `RaaBotz MD 🌱 ┊ 𝗥𝗣𝗚 Whatsapp ʙᴏᴛ`,
+                 "text":`FachriBotz MD 🌱 ┊ 𝗥𝗣𝗚 Whatsapp ʙᴏᴛ`,
+                 "title": `FachriBotz MD 🌱 ┊ 𝗥𝗣𝗚 Whatsapp ʙᴏᴛ`,
                  'jpegThumbnail': await (await fetch('https://telegra.ph/file/6f11ac2de8d57a1c831c4.jpg')).buffer()
                         }
 	                  } 
@@ -108,10 +108,10 @@ const fkgif = {
 
 ●────━───༺༻───━────●
                 *《 BOT INFO 》*
-⚘ *Bot Name: RaaBotz-MD*
-⚘ *Creator: Claraa Chan*
+⚘ *Bot Name: FachriBotz-MD*
+⚘ *Creator: Fchri*
 ⚘ *Contact Owner Bot*
-*http://wa.me/62895604670507*
+*http://wa.me/6285713041886*
 ⚘ *Tanggal: ${date}*  
 ⚘ *Jam: ${time} WIB*
 ⚘ *Status: 「 ${mode} 」*
@@ -150,21 +150,21 @@ _*${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik*_
 let ftt = `*Note:* Jika menemukan bug, error atau kesulitan dalam penggunaan silahkan laporkan/tanyakan kepada Owner
 
  *Official Bot By @${'0'.split('@')[0]}* 
- *Powered By @${'62895604670507'.split('@')[0]}*`
+ *Powered By @${'6285713041886'.split('@')[0]}*`
        let judul = `${ucapanl()}`.trim() 
        const sections = [
                               {
                                 "rows": [{
                                          "title": "📊 › Status ",
-                                         "description": "Status カ RaaBotz-MD",
+                                         "description": "Status カ FachriBotz-MD",
                                          "rowId": ".botstat"
                                     }, {
                                          "title": "⚡› Speed ",
-                                         "description": "Menampilkan Kecepatan Respon カ RaaBotz-MD",
+                                         "description": "Menampilkan Kecepatan Respon カ FachriBotz-MD",
                                          "rowId": ".ping"
                                     }, {
                                          "title": "🗒️› Info ",
-                                         "description": "Menampilkan Info カ RaaBotz-MD",
+                                         "description": "Menampilkan Info カ FachriBotz-MD",
                                          "rowId": ".info"
                                     }, {
                                          "title": "🎐 › Developer Bot ",
@@ -318,13 +318,13 @@ let ftt = `*Note:* Jika menemukan bug, error atau kesulitan dalam penggunaan sil
                                 }, {
                                 "rows": [{                                	
                                 "title": "📝 ∫  Catatan Perubahan ",
-                                "description": "Last Update Terakhir Di RaaBotz-MD",
+                                "description": "Last Update Terakhir Di FachriBotz-MD",
                                 "rowId": ".notes"                  
                 }],                
                                 "title": "▮Last Update 」"
                                 }, {
                                 "rows": [{                                	
-                  "title": "「 🗨️ 」› Raa Chat ",
+                  "title": "「 🗨️ 」› Rii Chat ",
                   "description": "Mengobrol Dengan Orang Lain",
                   "rowId": ". start"
                 }],
