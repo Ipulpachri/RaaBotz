@@ -23,7 +23,7 @@ let handler = async (m, { conn }) => {
     (v) => v.help && v.tags
   ).length;
 	let res = await fetch(global.API('https://api.github.com', '/search/repositories', {
-        q: 'Clara San Bot'
+        q: 'FachriBotz MD'
     }))
     if (!res.ok) throw eror
     let json = await res.json()
@@ -42,11 +42,11 @@ ${repo.description}`.trim()
 await conn.sendButtonImg(m.chat, await (await fetch('https://botcahx-rest-api.herokuapp.com/api/tools/ssweb?link=https://github.com/Zivfurr/Furry-Bot/commit')).buffer(), ' *──────「  Catatan Perubahan 」──────* ', zivsan, 'Owner', '.owner', m, { quoted: fload, contextInfo: { 
          externalAdReply: { showAdAttribution: true,
              title: 'Script Ini Update Secara Real Time Online',
-             body: `${pickRandom(['Furry Indonesia :3', 'Suka Pokemon Nggak Kak :3', 'Kangen Clara San Nggak?', 'Udah makan belum kak?', 'Udah Makan Belum?', 'Semangat ya kak!', 'Jangan begadang mulu ya!', 'Jangan spam ya kak!', 'Jangan lupa donasi yak kak! QωQ', 'Jaga kesehatan yaw kak!', 'Jangan lupa makan!', 'Jangan lupa istirahat yak! UωU', 'Clara San Sayang Kamu :3', 'Pr nya udh belum kak?', 'Jangan kebanyakan main hp yk! nanti sakit :‹'])}`,
+             body: `${pickRandom(['Furry Indonesia :3', 'Suka Pokemon Nggak Kak :3', 'Kangen Fachri Nggak?', 'Udah makan belum kak?', 'Udah Makan Belum?', 'Semangat ya kak!', 'Jangan begadang mulu ya!', 'Jangan spam ya kak!', 'Jangan lupa donasi yak kak! QωQ', 'Jaga kesehatan yaw kak!', 'Jangan lupa makan!', 'Jangan lupa istirahat yak! UωU', 'Clara San Sayang Kamu :3', 'Pr nya udh belum kak?', 'Jangan kebanyakan main hp yk! nanti sakit :‹'])}`,
              description: 'Now Playing...', 
              mediaType: 2, 
            thumbnail: await (await fetch(fla + 'Update')).buffer(), 
-          mediaUrl: `https://youtu.be/RlhkqeUDZrA` 
+          mediaUrl: `https://youtube.com/c/SaefulFahri` 
          } 
       } 
    })
